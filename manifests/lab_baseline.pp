@@ -15,6 +15,7 @@ class profile::lab_baseline {
   include macos_mgmt_profile::google_chrome_preferences
   include macos_mgmt_profile::google_software_updates
   include macos_mgmt_profile::msoffice_firstrun_preferences
+  include macos_mgmt_profile::login_items
   include macospcclient
 }
 
